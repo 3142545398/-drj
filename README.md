@@ -6,7 +6,7 @@ torch - 1.11.0 + cu115
 2.各个文件的说明：
 show.py - 数据的展示；
 
-dicm_to_numpy.py - 将dicm格式的图像转化为三维数组；
+dicom_to_numpy.py - 将dicm格式的图像转化为三维数组；
 
 models_3d.py - 三种模型的构建；
 
@@ -20,7 +20,7 @@ use.py - 进行模型训练、评估与预测；
 
 4.执行顺序：
 
-（1）运行dicm_to_numpy.py生成数组
+（1）运行dicom_to_numpy.py由原始数据（dicom格式）生成数组文件（numpy格式）
 
 （2）在use.py中选择训练或者预测，运行即可
 
